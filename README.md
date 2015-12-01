@@ -1,4 +1,4 @@
-# react-header-small
+# @nib-components/react-footer-small
 
 Small nib footer react component.
 
@@ -17,4 +17,7 @@ Small nib footer react component.
       document.querySelector('#app')
     );
 
-Requires `flexbox` class on `<html>` element for grid utilities to work. Most likely you'll be using modernizr to add this.
+### Notes
+
+- Requires `flexbox` class on `<html>` element for grid utilities to work. Most likely you'll be using modernizr to add this.
+- Also requires `<meta charset="UTF-8">` for the copyright symbol to render correctly
