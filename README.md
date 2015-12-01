@@ -1,4 +1,4 @@
-# @nib-components/react-header-small
+# @nib-components/react-footer-small
 
 Small nib footer react component.
 
