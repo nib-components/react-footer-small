@@ -58,17 +58,17 @@ var FooterSmall = (function (_React$Component) {
               { id: "ga-footer-copyright-links", className: "nib-footer__copyright-links" },
               _react2.default.createElement(
                 "a",
-                { className: "nib-footer__copyright-link", id: "ga-footer-terms", href: "/legal/terms-and-conditions" },
+                { className: "nib-footer__copyright-link", id: "ga-footer-terms", href: "https://www.nib.com.au/legal/terms-and-conditions" },
                 "Terms & Conditions"
               ),
               _react2.default.createElement(
                 "a",
-                { className: "nib-footer__copyright-link", id: "ga-footer-privacy", href: "/legal#privacy" },
+                { className: "nib-footer__copyright-link", id: "ga-footer-privacy", href: "https://www.nib.com.au/legal#privacy" },
                 "Privacy Policy"
               ),
               _react2.default.createElement(
                 "a",
-                { className: "nib-footer__copyright-link", id: "ga-footer-code-conduct", href: "/legal#codeofconduct" },
+                { className: "nib-footer__copyright-link", id: "ga-footer-code-conduct", href: "https://www.nib.com.au/legal#codeofconduct" },
                 "Code of Conduct"
               )
             )
