@@ -1,7 +1,6 @@
 {
   "name": "@nib-components/react-footer-small",
   "dependencies": {
-    "@nib-styles/footer-small": "^0.0.1",
     "react": "^0.14.2",
     "react-dom": "^0.14.2"
   },
@@ -28,12 +27,20 @@
   "scripts": {
     "build": "babel ./index.js -d ./dist --source-maps",
     "example.js.build": "browserify -v --debug -t babelify example/index.js -o example/index.bundled.js",
-    "example.css.build": "sass-composer index.scss -o example/index.bundled.css",
-    "example.build": "npm run build && npm run example.js.build && npm run example.css.build"
+    "example.build": "npm run build && npm run example.js.build"
   },
   "description": "Small nib footer react component.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "directories": {
     "example": "example"
-  }
+  },
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nib-components/react-footer-small.git"
+  },
+  "bugs": {
+    "url": "https://github.com/nib-components/react-footer-small/issues"
+  },
+  "homepage": "https://github.com/nib-components/react-footer-small#readme"
 }
