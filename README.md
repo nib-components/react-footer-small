@@ -10,7 +10,7 @@ Small nib footer react component.
 
     import React from 'react';
     import ReactDOM from 'react-dom';
-    import FooterSmall from 'react-footer-small';
+    import FooterSmall from '@nib-components/react-footer-small';
 
     ReactDOM.render(
       <FooterSmall/>,
