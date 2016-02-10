@@ -30,7 +30,7 @@
     "example.build": "npm run build && npm run example.js.build"
   },
   "description": "Small nib footer react component.",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "directories": {
     "example": "example"
   },
