@@ -58,6 +58,11 @@ var FooterSmall = (function (_React$Component) {
               { id: "ga-footer-copyright-links", className: "nib-footer__copyright-links" },
               _react2.default.createElement(
                 "a",
+                { className: "nib-footer__copyright-link", id: "ga-footer-fund-rules", href: "https://www.nib.com.au/health-information/content/assets/pdf/nib-fund-rules.pdf" },
+                "Fund Rules"
+              ),
+              _react2.default.createElement(
+                "a",
                 { className: "nib-footer__copyright-link", id: "ga-footer-terms", href: "https://www.nib.com.au/legal/terms-and-conditions" },
                 "Terms & Conditions"
               ),

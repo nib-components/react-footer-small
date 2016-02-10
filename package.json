@@ -27,10 +27,11 @@
   "scripts": {
     "build": "babel ./index.js -d ./dist --source-maps",
     "example.js.build": "browserify -v --debug -t babelify example/index.js -o example/index.bundled.js",
-    "example.build": "npm run build && npm run example.js.build"
+    "example.build": "npm run build && npm run example.js.build",
+    "prepublish": "npm run example.build"
   },
   "description": "Small nib footer react component.",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "directories": {
     "example": "example"
   },
