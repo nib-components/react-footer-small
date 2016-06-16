@@ -33,7 +33,7 @@ var FooterSmall = (function (_React$Component) {
       var currentYear = new Date().getFullYear();
       return _react2.default.createElement(
         "footer",
-        { className: "nib-footer" },
+        { className: "nib-footer nib-footer--small" },
         _react2.default.createElement(
           "div",
           { className: "nib-footer__body" },
@@ -75,6 +75,12 @@ var FooterSmall = (function (_React$Component) {
                 "a",
                 { className: "nib-footer__copyright-link", id: "ga-footer-code-conduct", href: "https://www.nib.com.au/legal#codeofconduct" },
                 "Code of Conduct"
+              ),
+              _react2.default.createElement(
+                "a",
+                { className: "nib-footer__copyright-link nib-footer__copyright-link--phone-number", id: "ga-footer-call-mobile", href: "tel:131642" },
+                _react2.default.createElement("i", { "class": "v2-icon v2-icon--phone" }),
+                "13 16 42"
               )
             )
           )
