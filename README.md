@@ -30,4 +30,4 @@ ReactDOM.render(
 
 0.2.2
 
- - add: adjust `peerDependencies` to include `react@15`
+ - fix: remove `react` `dependencies` to `peerDependencies`
