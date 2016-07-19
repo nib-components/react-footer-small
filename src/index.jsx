@@ -19,7 +19,7 @@ export default class FooterSmall extends React.Component {
               <a className="nib-footer__copyright-link" id="ga-footer-privacy" href="https://www.nib.com.au/legal#privacy">Privacy Policy</a>
               <a className="nib-footer__copyright-link" id="ga-footer-code-conduct" href="https://www.nib.com.au/legal#codeofconduct">Code of Conduct</a>
               <a className="nib-footer__copyright-link nib-footer__copyright-link--phone-number" id="ga-footer-call-mobile" href="tel:131642">
-                <i class="v2-icon v2-icon--phone"/>13 16 42
+                <i className="v2-icon v2-icon--phone"/>13 16 42
               </a>
             </nav>
         </div>

@@ -1,7 +1,17 @@
-.idea
-Thumbs.db
+# OS
 .DS_Store
-npm-debug.log
-node_modules/
+Thumbs.db
+
+# npm
+node_modules
+npm-debug.log*
+
+# editors
+.idea
+.vscode
+
+# project
 dist/
+
+# example
 index.bundled.*

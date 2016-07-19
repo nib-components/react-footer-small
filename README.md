@@ -5,7 +5,7 @@ Small nib footer react component.
 ## Installation
 
 ```bash
-npm install @nib-components/react-footer-small
+npm install --save @nib-components/react-footer-small
 ```
 
 ## Usage
