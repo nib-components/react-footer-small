@@ -1,8 +1,11 @@
 {
   "name": "@nib-components/react-footer-small",
-  "dependencies": {
-    "react": "^0.14.2",
-    "react-dom": "^0.14.2"
+  "version": "0.2.1",
+  "description": "Small nib footer react component.",
+  "main": "./dist/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nib-components/react-footer-small.git"
   },
   "devDependencies": {
     "babel-core": "^6.1.21",
@@ -15,7 +18,12 @@
     "react-testutils-query": "^0.1.1",
     "react-testutils-render": "^0.1.1",
     "readdir": "^0.0.13",
-    "sass-composer": "2.0.0-beta12"
+    "react": "^0.14.2",
+    "react-dom": "^0.14.2"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0",
+    "react-dom": "^0.14.0 || ^15.0.0"
   },
   "browserify": {
     "transform": [
@@ -28,20 +36,6 @@
     "build": "babel ./index.js -d ./dist --source-maps",
     "example.js.build": "browserify -v --debug -t babelify example/index.js -o example/index.bundled.js",
     "example.build": "npm run build && npm run example.js.build",
-    "prepublish": "npm run example.build"
-  },
-  "description": "Small nib footer react component.",
-  "version": "0.2.0",
-  "directories": {
-    "example": "example"
-  },
-  "main": "./dist/index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/nib-components/react-footer-small.git"
-  },
-  "bugs": {
-    "url": "https://github.com/nib-components/react-footer-small/issues"
-  },
-  "homepage": "https://github.com/nib-components/react-footer-small#readme"
+    "prepublish": "npm run build"
+  }
 }
