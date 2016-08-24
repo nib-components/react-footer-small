@@ -28,7 +28,7 @@ ReactDOM.render(
 
 ## Change log
 
-0.2.3
+0.2.4
 
 - fix: update privacy policy link
 
