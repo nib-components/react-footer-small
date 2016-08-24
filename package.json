@@ -1,6 +1,6 @@
 {
   "name": "@nib-components/react-footer-small",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Small nib footer react component.",
   "main": "./dist/index.js",
   "repository": {
@@ -23,7 +23,6 @@
     "react-testutils-query": "^0.6.1",
     "react-testutils-render": "^0.1.2",
     "source-map-support": "^0.4.0"
-
   },
   "peerDependencies": {
     "react": "^0.14.0 || ^15.0.0",
