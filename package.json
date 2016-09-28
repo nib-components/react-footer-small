@@ -37,7 +37,7 @@
     "watch:scripts": "npm run build -- --watch",
     "build:styles": "cpx ./src/*.scss ./dist",
     "build": "npm run build:scripts",
-    "test": "mocha --compilers js:babel-register --require ./dist/_.test.js ./dist",
+    "test": "mocha --compilers js:babel-register --watch-extensions js,jsx src/_.test.js 'src/**/*.test.@(js|jsx)'",
     "precommit": "npm run clean && npm run lint && npm run build && npm run test",
     "prepublish": "npm run precommit"
   }

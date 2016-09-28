@@ -1,8 +1,10 @@
-import React from 'react';
+import React, {PropTypes} from 'react';
 
 export default class FooterSmall extends React.Component {
   render() {
     let currentYear = new Date().getFullYear();
+    const fundRulesUrl = this.props.fundRulesUrl || 'https://www.nib.com.au/health-information/content/assets/pdf/nib-fund-rules.pdf';
+
     return (
       <footer className="nib-footer nib-footer--small">
         <div className="nib-footer__body">
@@ -14,7 +16,7 @@ export default class FooterSmall extends React.Component {
             </div>
 
             <nav id="ga-footer-copyright-links" className="nib-footer__copyright-links">
-              <a className="nib-footer__copyright-link" id="ga-footer-fund-rules" href="https://www.nib.com.au/health-information/content/assets/pdf/nib-fund-rules.pdf">Fund Rules</a>
+              <a className="nib-footer__copyright-link" id="ga-footer-fund-rules" href={fundRulesUrl}>Fund Rules</a>
               <a className="nib-footer__copyright-link" id="ga-footer-terms" href="https://www.nib.com.au/legal/terms-and-conditions">Terms &amp; Conditions</a>
               <a className="nib-footer__copyright-link" id="ga-footer-privacy" href="https://www.nib.com.au/legal/privacy-policy">Privacy Policy</a>
               <a className="nib-footer__copyright-link" id="ga-footer-code-conduct" href="https://www.nib.com.au/legal#codeofconduct">Code of Conduct</a>
@@ -29,3 +31,7 @@ export default class FooterSmall extends React.Component {
   );
   }
 }
+
+FooterSmall.propTypes = {
+  fundRulesUrl: PropTypes.string
+};
